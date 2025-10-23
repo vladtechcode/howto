@@ -50,7 +50,10 @@ ssh -T git@github.com
 ### You need to installed GitHub CLI
 
 ### Authenticate with Github
+
+```bash
 gh auth login
+```
 
 ### Select GitHub.com
 ### Select SSH 
@@ -59,4 +62,7 @@ gh auth login
 ### Proceed with authentication
 
 ### Checks authorization status on Github
+
+```bash
 gh auth status
+```
